@@ -24,7 +24,7 @@ function initMap(){
                     '<p>' + place.formatted_address + '</p>'+
                     '<p>' + place.formatted_phone_number + '</p>'+
                     '<p><a href="' + place.website + '">' + place.website + '</a></p>';
-                    for (var i = 0; i < 6; i++) {
+                    for (var i = 0; i < 3; i++) {
                       content += '<img src="' + place.photos[i].getUrl({maxHeight: 50}) + '">';
                     }
                     content += '</div></div>';
